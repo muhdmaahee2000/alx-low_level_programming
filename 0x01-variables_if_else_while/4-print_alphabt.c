@@ -2,9 +2,9 @@
 #include <stdlib.h>
 
 /**
- * main - Entry
+ * main - print alphabet exceptq and e
  *
- * Return: 0 (Success)
+ * Return : Always 0.
  */
 int main(void)
 {
@@ -12,8 +12,9 @@ int main(void)
 
 	for (ch = 'a'; ch <= 'z'; ch++)
 	{
-		putchar(ch);
+		if (ch != 'q' && ch != 'e')
+			putchar(ch);
 	}
-	putchar("\n");
+	putchar('\n');
 	return (0);
 }
