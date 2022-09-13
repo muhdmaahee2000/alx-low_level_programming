@@ -2,17 +2,18 @@
 #include <stdlib.h>
 
 /**
- * main - Entry
+ * main - print alphabet exceptq and e
  *
- * Return: 0 (Success)
+ * Return : Always (Success/correct)
  */
 int main(void)
 {
 	char ch;
-
+	
 	for (ch = 'a'; ch <= 'z'; ch++)
 	{
-		putchar(ch);
+		if (ch != 'q' && != 'e')
+			putchar(ch);
 	}
 	putchar("\n");
 	return (0);

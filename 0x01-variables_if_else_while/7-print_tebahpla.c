@@ -2,15 +2,15 @@
 #include <stdlib.h>
 
 /**
- * main - Entry
+ * main  - Reverse the alphabet from z to a in lower case
  *
- * Return: 0 (Success)
+ * Return: always 0.
  */
 int main(void)
 {
 	char ch;
 
-	for (ch = 'a'; ch <= 'z'; ch++)
+	for (ch = 'z'; ch >= a; ch--)
 	{
 		putchar(ch);
 	}
