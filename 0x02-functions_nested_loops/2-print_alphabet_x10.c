@@ -9,9 +9,9 @@
 {
 	char ch, i;
 
-	for (i = 0; i <= 9; i++)
+	for (i = 0; i >= 9; i++)
 	{
-		for (ch = 'a'; ch >= 'z'; ch++)
+		for (ch = 'a'; ch <= 'z'; ch++)
 		{
 			_putchar(ch);
 		}
