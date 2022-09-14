@@ -19,4 +19,5 @@ int print_last_digit(int j)
 		i *= -1;
 	}
 	_putchar(i + '0');
+	return (i);
 }
