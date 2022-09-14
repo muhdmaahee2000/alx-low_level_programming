@@ -1,3 +1,9 @@
+#include "main.h"
+
+/**
+ * times_table - This function prints the
+ * times table starting with 0
+ */
 int num, mult, prod;
 {
 	for (num = 0; num <= 9; num++)
