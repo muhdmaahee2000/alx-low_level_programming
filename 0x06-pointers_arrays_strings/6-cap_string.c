@@ -1,5 +1,5 @@
 #include"main.h"
-
+i wnta hhhhhhhhhhhh
 /**
  * cap_string - capitalizes all words of a string
  * @s: input string
