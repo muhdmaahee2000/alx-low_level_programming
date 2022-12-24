@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #include "holberton.h"
 
 /**
@@ -17,7 +16,6 @@ char *_strcat(char *dest, char *src)
 		dest_len++;
 	for (index = 0; src[index]; index++)
 		dest[dest_len++] = src[index];
-=======
 #include"main.h"
 
 /**
@@ -43,6 +41,5 @@ char *_strcat(char *dest, char *src)
 		a++;
 		b++;
 	}
->>>>>>> 70cb48ced36daab3b295654342102b4c6905450a
 	return (dest);
 }
