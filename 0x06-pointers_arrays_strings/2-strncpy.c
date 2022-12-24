@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include "holberton.h"
 
 /**
@@ -22,5 +23,28 @@ char *_strncpy(char *dest, char *src, int n)
 	for (index = src_len; index < n; index++)
 		dest[index] = '\0';
 
+=======
+#include"main.h"
+
+/**
+ * _strncpy - copies the string pointed to by src
+ * @dest: pointer to the buffer.
+ * @src: pointer to the source string.
+ * @n: length of src.
+ *
+ * Return: char
+ */
+char *_strncpy(char *dest, char *src, int n)
+{
+	int i;
+
+
+	for (i = 0; i < n && src[i] != '\0'; i++)
+	{
+		dest[i] = src[i];
+	}
+	for (; i < n; i++)
+		dest[i] = '\0';
+>>>>>>> 70cb48ced36daab3b295654342102b4c6905450a
 	return (dest);
 }

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 int _putchar(char c);
 char *_strcat(char *dest, char *src);
 char *_strncat(char *dest, char *src, int n);
@@ -9,3 +10,6 @@ char *rot13(char *);
 void print_number(int n);
 char *infinite_add(char *n1, char *n2, char *r, int size_r);
 
+=======
+I AM ABOUT TO START
+>>>>>>> 70cb48ced36daab3b295654342102b4c6905450a

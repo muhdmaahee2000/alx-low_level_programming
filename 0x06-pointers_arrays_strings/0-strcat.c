@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include "holberton.h"
 
 /**
@@ -16,5 +17,32 @@ char *_strcat(char *dest, char *src)
 		dest_len++;
 	for (index = 0; src[index]; index++)
 		dest[dest_len++] = src[index];
+=======
+#include"main.h"
+
+/**
+ * _strcat - concatenate two string
+ * @dest: pointer detination
+ * @src: pointer source
+ * Return: void
+ */
+char *_strcat(char *dest, char *src)
+{
+	int a;
+	int b;
+
+	a = 0;
+	while (dest[a] != 0)
+	{
+		a++;
+	}
+	b = 0;
+	while (src[b] != 0)
+	{
+		dest[a] = src[b];
+		a++;
+		b++;
+	}
+>>>>>>> 70cb48ced36daab3b295654342102b4c6905450a
 	return (dest);
 }
