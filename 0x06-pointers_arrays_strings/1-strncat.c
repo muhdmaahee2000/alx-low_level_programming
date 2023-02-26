@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #include "holberton.h"
 
 /**
@@ -18,7 +17,7 @@ char *_strncat(char *dest, char *src, int n)
 		dest_len++;
 	for (index = 0; src[index] && index < n; index++)
 		dest[dest_len++] = src[index];
-=======
+}
 #include"main.h"
 
 /**
@@ -40,6 +39,5 @@ char *_strncat(char *dest, char *src, int n)
 	/*should end with a end of string char*/
 	dest[dest_len + i] = '\0';
 
->>>>>>> 70cb48ced36daab3b295654342102b4c6905450a
 	return (dest);
 }

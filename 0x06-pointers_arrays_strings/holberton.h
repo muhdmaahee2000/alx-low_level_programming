@@ -1,11 +1,9 @@
 int _putchar(char c);
-<<<<<<< HEAD
-=======
+
 void print_buffer(char *b, int size);
 char *infinite_add(char *n1, char *n2, char *r, int size_r);
 char *cap_string(char *);
 char *string_toupper(char *);
->>>>>>> 70cb48ced36daab3b295654342102b4c6905450a
 char *_strcat(char *dest, char *src);
 char *_strncat(char *dest, char *src, int n);
 char *_strncpy(char *dest, char *src, int n);
@@ -15,7 +13,3 @@ char *leet(char *);
 char *rot13(char *);
 void print_number(int n);
 char *infinite_add(char *n1, char *n2, char *r, int size_r);
-<<<<<<< HEAD
-
-=======
->>>>>>> 70cb48ced36daab3b295654342102b4c6905450a

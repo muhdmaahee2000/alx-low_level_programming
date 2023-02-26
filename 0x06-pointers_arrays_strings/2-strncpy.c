@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #include "holberton.h"
 
 /**
@@ -22,8 +21,8 @@ char *_strncpy(char *dest, char *src, int n)
 
 	for (index = src_len; index < n; index++)
 		dest[index] = '\0';
+}
 
-=======
 #include"main.h"
 
 /**
@@ -45,6 +44,6 @@ char *_strncpy(char *dest, char *src, int n)
 	}
 	for (; i < n; i++)
 		dest[i] = '\0';
->>>>>>> 70cb48ced36daab3b295654342102b4c6905450a
+
 	return (dest);
 }
